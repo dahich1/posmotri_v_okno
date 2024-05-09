@@ -45,13 +45,11 @@ ol {
   flex-direction: row;
   align-items: end;
   min-width: 1140px;
-  min-height: 534px;
   gap: 30px;
 }
 
 .result {
   min-width: 711px;
-  min-height: 456px;
 }
 
 .result__video-container {
@@ -202,7 +200,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 }
 
 .content__list {
-  padding-top: 26px;
   height: 298px;
   overflow-y: auto;
   position: relative;
@@ -246,6 +243,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  padding-top: 2px;
 }
 
 .content__video-card-title {
